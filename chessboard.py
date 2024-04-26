@@ -15,7 +15,6 @@ pygame.display.update()  # updates the window
 
 exit = False
 
-
 while not exit:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

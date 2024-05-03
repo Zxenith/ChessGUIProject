@@ -24,6 +24,7 @@ while not exit:
         for column in range(0,8):
             if (row + column) % 2 == 0:
                 color = white
+                
             else:
                 color = black
 
